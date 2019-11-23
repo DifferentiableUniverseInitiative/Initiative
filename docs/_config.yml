@@ -6,7 +6,7 @@ description: Differentiable Universe Initiative Website
 email: example@example.com # TODO: provide a contact email
 title: the Differentiable Universe Initiative
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Initiative" # the subpath of your site, e.g. /blog
 url: "https://DifferentiableUniverseInitiative.github.io/Initiative" # the base hostname & protocol for your site, e.g. http://example.com
 
 git_address: https://github.com/DifferentiableUniverseInitiative/Initiative
