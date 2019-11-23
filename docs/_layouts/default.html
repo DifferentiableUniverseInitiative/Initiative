@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60" bgcolor="#000000">
+    <!--Main Navigation-->
+    <header>
+      {% include navbar.html %}
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+
+    <main>
+
+      {% include navbar.html %}
+
+      <div class="main">
+        <section class="module-extra-small bg-dark">
+          <div class="container">
+            {{ content }}
+          </div>
+        </section>
+      </div>
+
+    </main>
+    <!--Main layout-->
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60" bgcolor="#000000">
+    <!--Main Navigation-->
+    <header>
+      {% include navbar.html %}
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+
+      {% include navbar.html %}
+      <section class="home-section bg-dark-30" id="home" data-background="assets/images/background.png">
+        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=YjUICiYlCYE', containment:'.home-section', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="video-controls-box">
+          <!-- <div class="container">
+            <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
+          </div> -->
+        </div>
+        <div class="titan-caption">
+          <div class="caption-content">
+            <div class="font-alt mb-30 titan-title-size-1">Welcome to the</div>
+            <div class="font-alt mb-40 titan-title-size-4">Differentiable Universe Initiative</div><a class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="main">
+        <section class="module-extra-small bg-dark">
+          <div class="container">
+            {{ content }}
+          </div>
+        </section>
+      </div>
+
+    </main>
+    <!--Main layout-->
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<nav class="navbar navbar-custom navbar-fixed-top {% if page.layout == 'home' %} navbar-transparent {% endif %}" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="{{ '/index.html' | relative_url }}"> {{site.brand}} </a>
+    </div>
+    <div class="collapse navbar-collapse" id="custom-collapse">
+
+      <ul class="nav navbar-nav navbar-right">
+
+        {% assign pages = site.pages | sort: 'order' | group_by: 'category' %}
+        {% for cat in pages %}
+          {% assign items = cat.items %}
+          {% assign items_size = cat.items | size %}
+
+          <!-- Links without a category are hidden -->
+          <!-- Links with a unique category are placed at the root-->
+          {% if items_size == 1 %}
+
+            {% for item in items %}
+              {% if item.title != undefined %}
+              <li class="{% if item.url == page.url %}active{% endif %}">
+                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              </li>
+              {% endif %}
+            {% endfor %}
+
+          {% elsif cat.name != "" %}
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" >{{ cat.name | capitalize }}</a>
+                <ul class="dropdown-menu">
+                  {% for item in items %}
+                  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                  {% endfor %}
+                </ul>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

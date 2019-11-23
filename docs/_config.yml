@@ -1,0 +1,20 @@
+# Site Settings
+author: Differentiable Universe Contributors
+brand: the Initiative
+copyright: DUI
+description: Differentiable Universe Initiative Website
+email: example@example.com # TODO: provide a contact email
+title: the Differentiable Universe Initiative
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://DifferentiableUniverseInitiative.github.io/Initiative" # the base hostname & protocol for your site, e.g. http://example.com
+
+git_address: https://github.com/DifferentiableUniverseInitiative/Initiative
+git_edit_address: https://github.com/DifferentiableUniverseInitiative/Initiative/blob/master
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
