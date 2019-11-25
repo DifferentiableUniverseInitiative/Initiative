@@ -34,6 +34,14 @@
 	font-size: 48px;
 }
 
+
+/* Generic  Page Header */
+
+.page-header:before {
+	background: rgba(2, 2, 2, 0.2);
+}
+
+
 /* Agency Page Header */
 
 .agency-page-header:before {

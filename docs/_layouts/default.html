@@ -15,6 +15,18 @@
       {% include navbar.html %}
 
       <div class="main">
+
+        <section class="module-small bg-dark-90">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">{{ page.title }} </h2>
+                <div class="module-subtitle font-serif"> {{page.excerpt}}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="module-extra-small bg-dark">
           <div class="container">
             {{ content }}
