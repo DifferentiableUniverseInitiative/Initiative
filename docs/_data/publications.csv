@@ -1,6 +1,8 @@
 bibcode,date,title,authors,year,journal,volume,page,arxiv,doi,type
+2019JCAP...11..023M,11/2019,Reconstructing large-scale structure with neutral hydrogen surveys,"Modi, C., White, M., Slosar, A., and Castorina, E.",2019,JCAP,2019,023,arXiv:1907.02330,10.1088/1475-7516/2019/11/023,journal-paper
 2019JCAP...10..035H,10/2019,Efficient optimal reconstruction of linear fields and band-powers from cosmological data,"Horowitz, B., Seljak, U., and Aslanyan, G.",2019,JCAP,2019,035,arXiv:1810.00503,10.1088/1475-7516/2019/10/035,journal-paper
 2019arXiv190805276D,08/2019,High mass and halo resolution from fast low resolution simulations,"Dai, B., Feng, Y., Seljak, U., and Singh, S.",2019,arXiv,,arXiv:1908.05276,arXiv:1908.05276,,journal-paper
+2019arXiv190309049H,03/2019,TARDIS Paper I: A Constrained Reconstruction Approach to Modeling the z~2.5 Cosmic Web Probed by Lyman-alpha Forest Tomography,"Horowitz, B., Lee, K.-G., White, M., Krolewski, A., and Ata, M.",2019,arXiv,,arXiv:1903.09049,arXiv:1903.09049,,journal-paper
 2019arXiv190104454S,01/2019,Posterior inference unchained with EL_2O,"Seljak, U. and Yu, B.",2019,arXiv,,arXiv:1901.04454,arXiv:1901.04454,,journal-paper
 2018JCAP...11..009D,11/2018,A gradient based method for modeling baryons and matter in halos of fast simulations,"Dai, B., Feng, Y., and Seljak, U.",2018,JCAP,2018,009,arXiv:1804.00671,10.1088/1475-7516/2018/11/009,journal-paper
 2018JCAP...10..028M,10/2018,Cosmological reconstruction from galaxy light: neural network based light-matter connection,"Modi, C., Feng, Y., and Seljak, U.",2018,JCAP,2018,028,arXiv:1805.02247,10.1088/1475-7516/2018/10/028,journal-paper
